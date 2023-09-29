@@ -1,0 +1,15 @@
+.header {
+	background-color: var(--yellow);
+}
+
+.header > h2 {
+	padding: 20px 20px 20px 60px;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 60px 20px;
+}

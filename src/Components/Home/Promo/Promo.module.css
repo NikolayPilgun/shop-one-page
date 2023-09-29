@@ -1,0 +1,66 @@
+.promo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 20px;
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px 40px;
+	border-radius: 20px;
+	background-color: aliceblue;
+}
+.promoLeft {
+	flex: 1 1 40%;
+}
+.promoLeft h1 {
+	width: min-content;
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.yellowLine {
+	position: relative;
+	display: inline-block;
+}
+.yellowLine span {
+	position: relative;
+}
+.yellowLine::before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	bottom: 0px;
+	right: -15px;
+	transform: rotate(-2deg);
+	background-color: var(--yellow);
+}
+
+.promoLeft p {
+	margin: 10px 0px;
+	font-size: 20px;
+}
+.promoLeft div {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+}
+
+.promoLeft > div > button a {
+	padding: 10px 10px;
+	font-size: 25px;
+	background-color: darkslategray;
+	color: aliceblue;
+	transition: all ease-in 0.1s;
+}
+.promoLeft > div > button a:hover {
+	color: #6b52a1;
+	background-color: var(--yellow);
+}
+.promoLeft div button:active {
+	transform: scale(0.9);
+}
+.promoRight {
+	flex: 1 1 60%;
+}

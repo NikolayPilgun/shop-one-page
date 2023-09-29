@@ -1,0 +1,49 @@
+.favorite {
+	margin: 40px 40px 0px 40px;
+}
+.title {
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	background-image: url("../../../image/arrivals/arrTitle.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 4%;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	column-gap: 40px;
+}
+.left {
+	flex: 0 1 50%;
+}
+.right {
+	flex: 0 1 50%;
+}
+.picture {
+	margin-bottom: 20px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.textContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 20px;
+}
+.textContent p > h3 {
+	font-size: 22px;
+	font-weight: 500;
+}
+.textContent p > h4 {
+	font-size: 16px;
+	font-weight: 300;
+}
+.textContent > button {
+	font-size: 24px;
+}

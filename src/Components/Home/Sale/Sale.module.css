@@ -1,0 +1,67 @@
+.sale {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 20px;
+	margin: 40px 0px 60px 0px;
+	padding: 20px 40px;
+	background-color: var(--yellow);
+}
+.saleLeft {
+	flex: 0 1 50%;
+}
+.saleRight {
+	flex: 0 1 35%;
+}
+.saleRight h2 p {
+	font-size: 60px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.yellowLine {
+	position: relative;
+	display: inline-block;
+}
+.yellowLine span {
+	position: relative;
+}
+.yellowLine::before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	bottom: 0px;
+	right: -15px;
+	transform: rotate(-2deg);
+	background-color: white;
+}
+
+.saleRight div p {
+	margin: 10px 0px;
+	font-size: 20px;
+}
+
+.saleRight div p span {
+	font-weight: 700;
+	color: #6b52a1;
+}
+.saleRight > button {
+	margin-top: 20px;
+}
+
+.saleRight > button > a {
+	margin-top: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	background-color: rgb(0, 0, 0);
+	color: aliceblue;
+	transition: all ease-in 0.1s;
+}
+.saleRight > button a:hover {
+	color: aliceblue;
+	background-color: #6b52a1;
+}
+.saleRight button:active {
+	transform: scale(0.9);
+}
