@@ -4,6 +4,11 @@ import InputWrap from "./InputWrap/InputWrap";
 import styles from "./SignUp.module.css";
 
 function SignUp() {
+	const handleSearch = (e) => {
+		e.preventDefault();
+		console.log("Форма отправлена");
+	};
+
 	return (
 		<div className={styles.signUp}>
 			<div className={styles.header}>
@@ -18,7 +23,7 @@ function SignUp() {
 						If you would like to become part of our community, please register
 						using the form below.
 					</h3>
-					<form action="" method="post">
+					<form action="" method="post" onSubmit={handleSearch}>
 						<div className={styles.container}>
 							{dataInput.map((value) => (
 								<InputWrap dataInput={value} key={value.id} />
