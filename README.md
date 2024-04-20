@@ -1,6 +1,6 @@
 [![Header](https://github.com/NikolayPilgun/Portfolio/blob/main/src/data/dataImg/shopOnePage/shopOnePage1.svg)](https://nikolaypilgun.ru/clothingStore)
 
-# Вид сайта — Корпоративный web-сайт. Тема — Магазин женской одежды.
+# Тип сайта — Корпоративный web-сайт. Тема — Магазин женской одежды.
 
 ## Данный проект является тренировочным.
 
